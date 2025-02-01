@@ -10,8 +10,8 @@ EMAIL = "davidsanchezvalero@gmail.com"
 WHATSAPP = "https://wa.me/34635990275?text=Hello%2C%20World!"
 
 # PROYECTOS GIT-HUB
-WEB_LINKS = "https://github.com/SoyDavidDev/devdocs/tree/main/phytonweb"
-TUDU_APP_BACKEND = "https://github.com/SoyDavidDev/tudusBackend"
-TUDU_APP_FRONTEND = "https://github.com/SoyDavidDev/tuduFrontend"
+WEB_LINKS = "https://github.com/SoyDavidDev/devHub/tree/9cc86462da0ad1a31cd0c9662b4d7a8518dd357c/portfolio"
+TUDU_APP_BACKEND = "https://github.com/SoyDavidDev/devHub/tree/9cc86462da0ad1a31cd0c9662b4d7a8518dd357c/studies-daw/tudusBackend"
+TUDU_APP_FRONTEND = "https://github.com/SoyDavidDev/devHub/tree/9cc86462da0ad1a31cd0c9662b4d7a8518dd357c/studies-daw/tuduFrontend"
 LIVE_4_LIFE = "https://live4life.com/"
-WHISPER_APP = "https://github.com/SoyDavidDev/devdocs/tree/21e9b6e0d2b9f40c9f4c2945b015aa1f31546687/translator"
+WHISPER_APP = "https://github.com/SoyDavidDev/devHub/tree/9cc86462da0ad1a31cd0c9662b4d7a8518dd357c/machine-learning/whisper-translate"

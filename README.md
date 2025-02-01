@@ -13,8 +13,8 @@ Me encanta aprender y colaborar en equipos multidisciplinarios donde la innovaci
 
 ### 📚 Formación y experiencia
 **Desarrollo Web | Backend | Frontend | Cloud | AWS**  
-Formación sólida en **tecnologías web** como **Java**, **PHP**, **TypeScript**, y **Angular**.  
-Experiencia práctica con frameworks como **CodeIgniter**, **Django**, **Vue.js**, **Nuxt.js** y **Bootstrap**, gestionando bases de datos como **MySQL** y herramientas colaborativas como **Git** y **Docker**.  
+Formación sólida en **tecnologías web** como **Python**, **Java**, **PHP**, **TypeScript**, y **Angular**.  
+Experiencia práctica con frameworks como **Django**, **Vue.js**, **Reflex**, **Nuxt.js** y **Bootstrap**, **CodeIgniter**, gestionando bases de datos relacionales y no relacionales y herramientas colaborativas como **Git** y **Docker**.  
 Además, con certificación en **AWS Cloud Practitioner**, gestionando soluciones en la nube con servicios como **Lambda**, **API Gateway**, **DynamoDB**, y **S3**.
 
 ### 🌱 **Certificaciones**  
