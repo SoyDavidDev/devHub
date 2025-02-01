@@ -1,0 +1,59 @@
+.register
+  padding: 2rem
+  background-color: $light-pink
+  min-width: 100%
+  min-height: 100vh
+.title
+  text-align: center
+
+.form
+  margin: 3rem auto
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 25%
+  min-width: 350px
+  max-width: 100%
+  background: $off-white
+  color: $dark-blue
+  border-radius: 5px
+  padding: 40px
+  box-shadow: $gray-shadow
+
+.form-label
+  margin-top: 2rem
+  color: $dark-blue
+  margin-bottom: 0.5rem
+  &:first-of-type
+    margin-top: 0rem
+
+.form-input
+  padding: 10px 15px
+  background-color: none
+  color: $dark-blue
+  font-weight: bold
+  opacity: 0.6
+  &:focus
+    outline: 0
+    border-color: $primary-variant
+
+.form-submit
+  background: $primary
+  border: none
+  color: $white
+  margin-top: 3rem
+  padding: 1rem 0
+  cursor: pointer
+  transition: background 0.2s
+  width: 200px
+  &:hover
+    background: $primary-variant-hover
+
+.error
+  margin: 1rem 0 0
+  color: $danger
+
+.v-card-actions
+  display: flex
+  justify-content: center
+  margin-top: 1rem

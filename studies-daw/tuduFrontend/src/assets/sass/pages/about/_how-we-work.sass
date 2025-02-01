@@ -1,0 +1,25 @@
+.about
+    background-color: $light-pink
+    padding: 2em
+
+.about__one__image
+    opacity: 0.5
+section
+    background-color: $light-pink
+    padding: 2em
+
+.about__one, .about__three,.about__five
+    display: flex
+    align-items: center
+    @media ( max-width: 768px)
+        flex-direction: column  
+
+.about__two, .about__four, .about__six
+    display: flex
+    align-items: center
+    flex-direction: row-reverse
+    @media ( max-width: 768px)
+        flex-direction: column        
+
+.about__six__image
+    margin: 0 15em

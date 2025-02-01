@@ -1,0 +1,53 @@
+.v-container
+    padding: 2rem
+    background-color: $light-pink
+    min-width: 100%
+    min-height: 100vh
+
+.v-row
+    justify-content: center
+
+.title
+    color: $dark-blue
+
+.v-btn
+    &.edit
+        padding: 0.5rem 1rem
+        background: $primary
+        color: $white
+        margin-right: 0.5rem
+        &:hover
+            background: $primary-variant-hover
+    &.delete
+        padding: 0.5rem 1rem
+        background: $danger
+        color: $white
+        &:hover
+            background-color: $danger
+    &.create
+        padding: 0.5rem 1rem
+        background: $secondary
+        color: $white
+        margin-right: 0.5rem
+        &:hover
+            background: $secondary-variant-hover
+
+.v-card
+    padding: 1rem
+    background-color: $white
+    box-shadow: $gray-shadow
+    justify-content: space-between
+    .v-row
+        padding: 1rem
+        justify-content: space-between
+    .v-card-item
+        color: $dark-blue
+        .v-card-title
+            color: $dark-blue
+        .v-card-subtitle
+            color: $grey
+
+.buttons
+    padding: 1em
+    display: flex
+    justify-content: space-between

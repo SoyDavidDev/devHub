@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap')
+
+  
+.v-container
+  min-width: 100%
+  min-height: 100vh
+  background-color: $light-pink
+  color: $dark-blue
+  font-family: 'Poppins', sans-serif
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.v-form
+  box-shadow: 0 4px 10px $blue-to-pink-gradient
+  max-width: 100%
+  width: 400px
+  height: auto
+
+.v-text-field
+  border: none
+  color: $dark-blue
+  font-size: 2rem
+  display: block
+  width: 100%
+  &::placeholder
+    color: $secondary-variant
+  &--is-focused
+    .v-input__slot
+      outline-color: $primary-variant-hover
+
+.v-list
+  background-color: $light-pink
+  list-style-type: none
+
+.v-list-item
+  border-top: 1px solid $off-white
+  background-color: $light-pink
+  cursor: pointer
+  font-size: 1.5rem
+  padding: 1rem 2rem
+  &.completed
+    color: $soft-pink
+    text-decoration: line-through
+
+
+  
+
+small
+  color: $dark-blue
+  margin-top: 3rem
+  text-align: center
+
+
+//-----IMAGE-----//
+.container__image
+  display: flex
+  justify-content: center
+  align-items: center
+  opacity: 0.1
+  position: fixed
+  top: 60%
+  left: 50%
+  transform: translate(-50%, -50%)
