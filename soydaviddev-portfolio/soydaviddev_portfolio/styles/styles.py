@@ -6,13 +6,14 @@ from .colors import TextColor as TextColor
 from .fonts import Font as Font
 
 # Constants
-MAX_WIDTH = "600px"
+MAX_WIDTH = "650px"
 
 # Sizes
 class Size(Enum):
     ZERO = "0px !important"
     SMALL = '1'
-    MEDIUM = '2'
+    MID_SMALL = '2'
+    MEDIUM = '3'
     DEFAULT = '5'
     LARGE = '6'
     BIG = '7'

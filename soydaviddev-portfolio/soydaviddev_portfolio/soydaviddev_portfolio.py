@@ -1,10 +1,13 @@
 """Welcome to Reflex! This file outlines the steps to create a basic app."""
 
 import reflex as rx
-from soydaviddev_portfolio.styles.styles import Size as Size
+from soydaviddev_portfolio.styles.styles import Size
+from soydaviddev_portfolio.styles.styles import SizePx
 from soydaviddev_portfolio.components.navbar import navbar_searchbar
 from soydaviddev_portfolio.components.footer import footer
 from soydaviddev_portfolio.views.header.header import header
+from soydaviddev_portfolio.views.links.links import links
+
 class State(rx.State):
     """The app state."""
     appearence: str = "dark"
@@ -17,8 +20,13 @@ def index() -> rx.Component:
         navbar_searchbar(),
         rx.color_mode.button(position="top-right"),
         rx.vstack(
-            rx.heading("Bienvenid@s a mi Portfolio!", size=Size.VERY_BIG2.value),
+            rx.heading(
+                "Bienvenid@s a mi Portfolio!", 
+                size=Size.VERY_BIG2.value,
+                margin_top=SizePx.VERY_BIG2.value,
+            ),
             header(),
+            links(),
             # rx.text(
             #     "Get started by editing ",
             #     rx.code(f"{config.app_name}/{config.app_name}.py"),
@@ -32,6 +40,7 @@ def index() -> rx.Component:
             spacing=Size.DEFAULT.value,
             justify="center",
             min_height="65vh",
+            max_width="65vw",
         ),
         footer(),
         rx.logo(),
