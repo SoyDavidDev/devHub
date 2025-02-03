@@ -1,5 +1,6 @@
 import reflex as rx
 import soydaviddev_portfolio.constants as const
+from soydaviddev_portfolio.styles.styles import MAX_WIDTH
 from soydaviddev_portfolio.components.link_card import link_card
 
 
@@ -13,19 +14,19 @@ def links() -> rx.Component:
                             link_card(
                                 "Red de contactos profesional.",
                                 "Conecta conmigo en LinkedIn.",
-                                "/icons/linkedin.svg",
+                                "/icons/dark/linkedin.svg",
                                 const.LINKEDIN_URL,
                             ),
                             link_card(
                                 "Explora mi GitHub.",
                                 "El código importa y se comparte (excepto contraseñas).",
-                                "/icons/github.svg",
+                                "/icons/dark/github.svg",
                                 const.GITHUB_URL,
                             ),
                             link_card(
                                 "Mi CV en PDF.",
                                 "Descarga mi CV en PDF.",
-                                "icons/id-card-solid.svg",
+                                "icons/dark/id-card-solid.svg",
                                 const.CV,
                             ),
                         align="center",
@@ -45,19 +46,17 @@ def links() -> rx.Component:
                                 "icons/reflex.svg",
                                 const.WEB_LINKS,
                             ),
-                            rx.hstack(
-                                link_card(
-                                    "Tudú App (Backend). Django, DRF, PostgreSQL.",
-                                    "Porque las listas de tareas no se hacen solas",
-                                    "icons/django.svg",
-                                    const.TUDU_APP_BACKEND,
-                                ),
-                                link_card(
-                                    "Tudú App (Frontend). VueJS, NuxtJS.",
-                                    "Haciendo que el backend luzca bonito.",
-                                    "icons/vuejs.svg",
-                                    const.TUDU_APP_FRONTEND,
-                                ),
+                            link_card(
+                                "Tudú App (Backend). Django, DRF, PostgreSQL.",
+                                "Porque las listas de tareas no se hacen solas",
+                                "icons/django.svg",
+                                const.TUDU_APP_BACKEND,
+                            ),
+                            link_card(
+                                "Tudú App (Frontend). VueJS, NuxtJS.",
+                                "Haciendo que el backend luzca bonito.",
+                                "icons/vuejs.svg",
+                                const.TUDU_APP_FRONTEND,
                             ),
                             link_card(
                                 "Web Live4Live. Django y Vue.js.",
@@ -109,8 +108,7 @@ def links() -> rx.Component:
             spacing="2",
             justify_content= "center",
             align="center",
+            width=MAX_WIDTH,
         ),
-        justify_content= "center",
-        align="center",
     ),
     )

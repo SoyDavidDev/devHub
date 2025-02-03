@@ -5,14 +5,12 @@ from soydaviddev_portfolio.styles.styles import Size
 def link_card(title:str, body:str, image:str, url:str ) -> rx.Component:
     return(
         rx.card(
-            rx.link(
+            rx.link(    
                 rx.flex(
-                    rx.avatar(src=image),
+                    rx.avatar(src=image, size=Size.SMALL.value),
                     rx.box(
                         rx.heading(title),
-                        rx.text(
-                            body
-                        ),
+                        rx.text(body),
                     ),
                     spacing=Size.MID_SMALL.value,
                 ),

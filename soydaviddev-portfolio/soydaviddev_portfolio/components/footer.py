@@ -37,4 +37,5 @@ def footer() -> rx.Component:
         ),
         flex_direction="column",
         width="100%",
+        margin_top=SizePx.BIG.value,
     )

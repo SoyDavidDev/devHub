@@ -15,10 +15,9 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    # Welcome Page (Index)
     return rx.container(
         navbar_searchbar(),
-        rx.color_mode.button(position="top-right"),
+        # rx.color_mode.button(position="top-right"),
         rx.vstack(
             rx.heading(
                 "Bienvenid@s a mi Portfolio!", 
@@ -27,20 +26,11 @@ def index() -> rx.Component:
             ),
             header(),
             links(),
-            # rx.text(
-            #     "Get started by editing ",
-            #     rx.code(f"{config.app_name}/{config.app_name}.py"),
-            #     size="5",
-            # ),
-            # rx.link(
-            #     rx.button("Check out our docs!"),
-            #     href="https://reflex.dev/docs/getting-started/introduction/",
-            #     is_external=True,
-            # ),
             spacing=Size.DEFAULT.value,
             justify="center",
             min_height="65vh",
-            max_width="65vw",
+            justify_content="center",
+            align="center",
         ),
         footer(),
         rx.logo(),
